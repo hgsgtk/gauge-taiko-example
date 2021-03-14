@@ -88,3 +88,24 @@ step("Must have <table>", async function (table) {
         assert.ok(await text(row.cells[0]).exists());
     }
 });
+
+step("<arg0> 件プロポーザルを出したスピーカーは、自身が提出したプロポーザルの一覧で <arg1> 件のプロポーザルを確認できる", async function(arg0, arg1) {
+});
+
+step("プロポーザルの一覧にて次の情報を表示される <arg0>", async function(arg0) {
+});
+
+step("トーク時間に応じて収録開始・収録終了が表示される <arg0>", async function(arg0) {
+});
+
+step("レコーディング予約中のスピーカーは、レコーディング予約をキャンセルすることが出来る", async function() {
+});
+
+step("カンファレンス運営者は、採択済みのプロポーザルに対して、管理画面からメールを送信出来る", async function() {
+});
+
+step("採択されたスピーカーはメールを受け取り、採択可否の返答画面へアクセスできる", async function() {
+});
+
+step("プロポーザル提出者へ採択承諾のリマインドを送る <arg0>", async function(arg0) {
+});
